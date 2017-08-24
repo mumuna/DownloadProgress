@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F14EBDB51F4EA1310098C277 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDB41F4EA1310098C277 /* main.m */; };
+		F14EBDB81F4EA1310098C277 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDB71F4EA1310098C277 /* AppDelegate.m */; };
+		F14EBDBE1F4EA1310098C277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EBDBC1F4EA1310098C277 /* Main.storyboard */; };
+		F14EBDC01F4EA1310098C277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14EBDBF1F4EA1310098C277 /* Assets.xcassets */; };
+		F14EBDC31F4EA1310098C277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EBDC11F4EA1310098C277 /* LaunchScreen.storyboard */; };
+		F14EBDCE1F4EA1320098C277 /* DownloadProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDCD1F4EA1320098C277 /* DownloadProgressTests.m */; };
+		F14EBDD91F4EA1320098C277 /* DownloadProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDD81F4EA1320098C277 /* DownloadProgressUITests.m */; };
+		F14EBE021F4EA1910098C277 /* HandwritingManageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDE91F4EA1910098C277 /* HandwritingManageController.m */; };
+		F14EBE031F4EA1910098C277 /* MCDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDED1F4EA1910098C277 /* MCDownloadManager.m */; };
+		F14EBE051F4EA1910098C277 /* MCURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDF31F4EA1910098C277 /* MCURLRequest.m */; };
+		F14EBE061F4EA1910098C277 /* MCURLRequestCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDF51F4EA1910098C277 /* MCURLRequestCenter.m */; };
+		F14EBE071F4EA1910098C277 /* MCURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDF71F4EA1910098C277 /* MCURLResponse.m */; };
+		F14EBE081F4EA1910098C277 /* MCURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDF91F4EA1910098C277 /* MCURLSessionConfiguration.m */; };
+		F14EBE091F4EA1910098C277 /* MCWiFiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDFB1F4EA1910098C277 /* MCWiFiManager.m */; };
+		F14EBE0A1F4EA1910098C277 /* HandwritingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBDFE1F4EA1910098C277 /* HandwritingCell.m */; };
+		F14EBE0B1F4EA1910098C277 /* HandWritingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F14EBDFF1F4EA1910098C277 /* HandWritingCell.xib */; };
+		F14EBE0C1F4EA1910098C277 /* QKYDelayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F14EBE011F4EA1910098C277 /* QKYDelayButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F14EBDCA1F4EA1310098C277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14EBDA81F4EA1310098C277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14EBDAF1F4EA1310098C277;
+			remoteInfo = DownloadProgress;
+		};
+		F14EBDD51F4EA1320098C277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14EBDA81F4EA1310098C277 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14EBDAF1F4EA1310098C277;
+			remoteInfo = DownloadProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F14EBDB01F4EA1310098C277 /* DownloadProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EBDB41F4EA1310098C277 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F14EBDB61F4EA1310098C277 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F14EBDB71F4EA1310098C277 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F14EBDBD1F4EA1310098C277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F14EBDBF1F4EA1310098C277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F14EBDC21F4EA1310098C277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14EBDC41F4EA1310098C277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14EBDC91F4EA1310098C277 /* DownloadProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EBDCD1F4EA1320098C277 /* DownloadProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadProgressTests.m; sourceTree = "<group>"; };
+		F14EBDCF1F4EA1320098C277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14EBDD41F4EA1320098C277 /* DownloadProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14EBDD81F4EA1320098C277 /* DownloadProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadProgressUITests.m; sourceTree = "<group>"; };
+		F14EBDDA1F4EA1320098C277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14EBDE81F4EA1910098C277 /* HandwritingManageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandwritingManageController.h; sourceTree = "<group>"; };
+		F14EBDE91F4EA1910098C277 /* HandwritingManageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandwritingManageController.m; sourceTree = "<group>"; };
+		F14EBDEB1F4EA1910098C277 /* MCDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDefine.h; sourceTree = "<group>"; };
+		F14EBDEC1F4EA1910098C277 /* MCDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloadManager.h; sourceTree = "<group>"; };
+		F14EBDED1F4EA1910098C277 /* MCDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDownloadManager.m; sourceTree = "<group>"; };
+		F14EBDF21F4EA1910098C277 /* MCURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCURLRequest.h; sourceTree = "<group>"; };
+		F14EBDF31F4EA1910098C277 /* MCURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCURLRequest.m; sourceTree = "<group>"; };
+		F14EBDF41F4EA1910098C277 /* MCURLRequestCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCURLRequestCenter.h; sourceTree = "<group>"; };
+		F14EBDF51F4EA1910098C277 /* MCURLRequestCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCURLRequestCenter.m; sourceTree = "<group>"; };
+		F14EBDF61F4EA1910098C277 /* MCURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCURLResponse.h; sourceTree = "<group>"; };
+		F14EBDF71F4EA1910098C277 /* MCURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCURLResponse.m; sourceTree = "<group>"; };
+		F14EBDF81F4EA1910098C277 /* MCURLSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCURLSessionConfiguration.h; sourceTree = "<group>"; };
+		F14EBDF91F4EA1910098C277 /* MCURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCURLSessionConfiguration.m; sourceTree = "<group>"; };
+		F14EBDFA1F4EA1910098C277 /* MCWiFiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWiFiManager.h; sourceTree = "<group>"; };
+		F14EBDFB1F4EA1910098C277 /* MCWiFiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWiFiManager.m; sourceTree = "<group>"; };
+		F14EBDFD1F4EA1910098C277 /* HandwritingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandwritingCell.h; sourceTree = "<group>"; };
+		F14EBDFE1F4EA1910098C277 /* HandwritingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandwritingCell.m; sourceTree = "<group>"; };
+		F14EBDFF1F4EA1910098C277 /* HandWritingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandWritingCell.xib; sourceTree = "<group>"; };
+		F14EBE001F4EA1910098C277 /* QKYDelayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKYDelayButton.h; sourceTree = "<group>"; };
+		F14EBE011F4EA1910098C277 /* QKYDelayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKYDelayButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F14EBDAD1F4EA1310098C277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EBDC61F4EA1310098C277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EBDD11F4EA1320098C277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F14EBDA71F4EA1300098C277 = {
+			isa = PBXGroup;
+			children = (
+				F14EBDB21F4EA1310098C277 /* DownloadProgress */,
+				F14EBDCC1F4EA1310098C277 /* DownloadProgressTests */,
+				F14EBDD71F4EA1320098C277 /* DownloadProgressUITests */,
+				F14EBDB11F4EA1310098C277 /* Products */,
+				F14EBDEA1F4EA1910098C277 /* MCDownloadManager */,
+			);
+			sourceTree = "<group>";
+		};
+		F14EBDB11F4EA1310098C277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDB01F4EA1310098C277 /* DownloadProgress.app */,
+				F14EBDC91F4EA1310098C277 /* DownloadProgressTests.xctest */,
+				F14EBDD41F4EA1320098C277 /* DownloadProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14EBDB21F4EA1310098C277 /* DownloadProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDE61F4EA1910098C277 /* 字体管理 */,
+				F14EBDB61F4EA1310098C277 /* AppDelegate.h */,
+				F14EBDB71F4EA1310098C277 /* AppDelegate.m */,
+				F14EBDBC1F4EA1310098C277 /* Main.storyboard */,
+				F14EBDBF1F4EA1310098C277 /* Assets.xcassets */,
+				F14EBDC11F4EA1310098C277 /* LaunchScreen.storyboard */,
+				F14EBDC41F4EA1310098C277 /* Info.plist */,
+				F14EBDB31F4EA1310098C277 /* Supporting Files */,
+			);
+			path = DownloadProgress;
+			sourceTree = "<group>";
+		};
+		F14EBDB31F4EA1310098C277 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDB41F4EA1310098C277 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F14EBDCC1F4EA1310098C277 /* DownloadProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDCD1F4EA1320098C277 /* DownloadProgressTests.m */,
+				F14EBDCF1F4EA1320098C277 /* Info.plist */,
+			);
+			path = DownloadProgressTests;
+			sourceTree = "<group>";
+		};
+		F14EBDD71F4EA1320098C277 /* DownloadProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDD81F4EA1320098C277 /* DownloadProgressUITests.m */,
+				F14EBDDA1F4EA1320098C277 /* Info.plist */,
+			);
+			path = DownloadProgressUITests;
+			sourceTree = "<group>";
+		};
+		F14EBDE61F4EA1910098C277 /* 字体管理 */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDE71F4EA1910098C277 /* controller */,
+				F14EBDF11F4EA1910098C277 /* Networking */,
+				F14EBDFC1F4EA1910098C277 /* view */,
+			);
+			path = "字体管理";
+			sourceTree = "<group>";
+		};
+		F14EBDE71F4EA1910098C277 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDE81F4EA1910098C277 /* HandwritingManageController.h */,
+				F14EBDE91F4EA1910098C277 /* HandwritingManageController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F14EBDEA1F4EA1910098C277 /* MCDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDEB1F4EA1910098C277 /* MCDefine.h */,
+				F14EBDEC1F4EA1910098C277 /* MCDownloadManager.h */,
+				F14EBDED1F4EA1910098C277 /* MCDownloadManager.m */,
+			);
+			name = MCDownloadManager;
+			path = "DownloadProgress/字体管理/MCDownloadManager";
+			sourceTree = "<group>";
+		};
+		F14EBDF11F4EA1910098C277 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDF21F4EA1910098C277 /* MCURLRequest.h */,
+				F14EBDF31F4EA1910098C277 /* MCURLRequest.m */,
+				F14EBDF41F4EA1910098C277 /* MCURLRequestCenter.h */,
+				F14EBDF51F4EA1910098C277 /* MCURLRequestCenter.m */,
+				F14EBDF61F4EA1910098C277 /* MCURLResponse.h */,
+				F14EBDF71F4EA1910098C277 /* MCURLResponse.m */,
+				F14EBDF81F4EA1910098C277 /* MCURLSessionConfiguration.h */,
+				F14EBDF91F4EA1910098C277 /* MCURLSessionConfiguration.m */,
+				F14EBDFA1F4EA1910098C277 /* MCWiFiManager.h */,
+				F14EBDFB1F4EA1910098C277 /* MCWiFiManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F14EBDFC1F4EA1910098C277 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBDFD1F4EA1910098C277 /* HandwritingCell.h */,
+				F14EBDFE1F4EA1910098C277 /* HandwritingCell.m */,
+				F14EBDFF1F4EA1910098C277 /* HandWritingCell.xib */,
+				F14EBE001F4EA1910098C277 /* QKYDelayButton.h */,
+				F14EBE011F4EA1910098C277 /* QKYDelayButton.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F14EBDAF1F4EA1310098C277 /* DownloadProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EBDDD1F4EA1320098C277 /* Build configuration list for PBXNativeTarget "DownloadProgress" */;
+			buildPhases = (
+				F14EBDAC1F4EA1310098C277 /* Sources */,
+				F14EBDAD1F4EA1310098C277 /* Frameworks */,
+				F14EBDAE1F4EA1310098C277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadProgress;
+			productName = DownloadProgress;
+			productReference = F14EBDB01F4EA1310098C277 /* DownloadProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F14EBDC81F4EA1310098C277 /* DownloadProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EBDE01F4EA1320098C277 /* Build configuration list for PBXNativeTarget "DownloadProgressTests" */;
+			buildPhases = (
+				F14EBDC51F4EA1310098C277 /* Sources */,
+				F14EBDC61F4EA1310098C277 /* Frameworks */,
+				F14EBDC71F4EA1310098C277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14EBDCB1F4EA1310098C277 /* PBXTargetDependency */,
+			);
+			name = DownloadProgressTests;
+			productName = DownloadProgressTests;
+			productReference = F14EBDC91F4EA1310098C277 /* DownloadProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F14EBDD31F4EA1320098C277 /* DownloadProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14EBDE31F4EA1320098C277 /* Build configuration list for PBXNativeTarget "DownloadProgressUITests" */;
+			buildPhases = (
+				F14EBDD01F4EA1320098C277 /* Sources */,
+				F14EBDD11F4EA1320098C277 /* Frameworks */,
+				F14EBDD21F4EA1320098C277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14EBDD61F4EA1320098C277 /* PBXTargetDependency */,
+			);
+			name = DownloadProgressUITests;
+			productName = DownloadProgressUITests;
+			productReference = F14EBDD41F4EA1320098C277 /* DownloadProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14EBDA81F4EA1310098C277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "佳娜";
+				TargetAttributes = {
+					F14EBDAF1F4EA1310098C277 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					F14EBDC81F4EA1310098C277 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F14EBDAF1F4EA1310098C277;
+					};
+					F14EBDD31F4EA1320098C277 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F14EBDAF1F4EA1310098C277;
+					};
+				};
+			};
+			buildConfigurationList = F14EBDAB1F4EA1310098C277 /* Build configuration list for PBXProject "DownloadProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14EBDA71F4EA1300098C277;
+			productRefGroup = F14EBDB11F4EA1310098C277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14EBDAF1F4EA1310098C277 /* DownloadProgress */,
+				F14EBDC81F4EA1310098C277 /* DownloadProgressTests */,
+				F14EBDD31F4EA1320098C277 /* DownloadProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F14EBDAE1F4EA1310098C277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EBDC31F4EA1310098C277 /* LaunchScreen.storyboard in Resources */,
+				F14EBDC01F4EA1310098C277 /* Assets.xcassets in Resources */,
+				F14EBDBE1F4EA1310098C277 /* Main.storyboard in Resources */,
+				F14EBE0B1F4EA1910098C277 /* HandWritingCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EBDC71F4EA1310098C277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EBDD21F4EA1320098C277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14EBDAC1F4EA1310098C277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EBE021F4EA1910098C277 /* HandwritingManageController.m in Sources */,
+				F14EBE091F4EA1910098C277 /* MCWiFiManager.m in Sources */,
+				F14EBE031F4EA1910098C277 /* MCDownloadManager.m in Sources */,
+				F14EBE0C1F4EA1910098C277 /* QKYDelayButton.m in Sources */,
+				F14EBE051F4EA1910098C277 /* MCURLRequest.m in Sources */,
+				F14EBE061F4EA1910098C277 /* MCURLRequestCenter.m in Sources */,
+				F14EBE071F4EA1910098C277 /* MCURLResponse.m in Sources */,
+				F14EBDB81F4EA1310098C277 /* AppDelegate.m in Sources */,
+				F14EBDB51F4EA1310098C277 /* main.m in Sources */,
+				F14EBE081F4EA1910098C277 /* MCURLSessionConfiguration.m in Sources */,
+				F14EBE0A1F4EA1910098C277 /* HandwritingCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EBDC51F4EA1310098C277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EBDCE1F4EA1320098C277 /* DownloadProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14EBDD01F4EA1320098C277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14EBDD91F4EA1320098C277 /* DownloadProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F14EBDCB1F4EA1310098C277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14EBDAF1F4EA1310098C277 /* DownloadProgress */;
+			targetProxy = F14EBDCA1F4EA1310098C277 /* PBXContainerItemProxy */;
+		};
+		F14EBDD61F4EA1320098C277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14EBDAF1F4EA1310098C277 /* DownloadProgress */;
+			targetProxy = F14EBDD51F4EA1320098C277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F14EBDBC1F4EA1310098C277 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EBDBD1F4EA1310098C277 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F14EBDC11F4EA1310098C277 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14EBDC21F4EA1310098C277 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F14EBDDB1F4EA1320098C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F14EBDDC1F4EA1320098C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14EBDDE1F4EA1320098C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownloadProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangdajiao.DownloadProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F14EBDDF1F4EA1320098C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownloadProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangdajiao.DownloadProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F14EBDE11F4EA1320098C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DownloadProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangdajiao.DownloadProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadProgress.app/DownloadProgress";
+			};
+			name = Debug;
+		};
+		F14EBDE21F4EA1320098C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DownloadProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangdajiao.DownloadProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadProgress.app/DownloadProgress";
+			};
+			name = Release;
+		};
+		F14EBDE41F4EA1320098C277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownloadProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangdajiao.DownloadProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownloadProgress;
+			};
+			name = Debug;
+		};
+		F14EBDE51F4EA1320098C277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DownloadProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangdajiao.DownloadProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DownloadProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14EBDAB1F4EA1310098C277 /* Build configuration list for PBXProject "DownloadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EBDDB1F4EA1320098C277 /* Debug */,
+				F14EBDDC1F4EA1320098C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14EBDDD1F4EA1320098C277 /* Build configuration list for PBXNativeTarget "DownloadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EBDDE1F4EA1320098C277 /* Debug */,
+				F14EBDDF1F4EA1320098C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F14EBDE01F4EA1320098C277 /* Build configuration list for PBXNativeTarget "DownloadProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EBDE11F4EA1320098C277 /* Debug */,
+				F14EBDE21F4EA1320098C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F14EBDE31F4EA1320098C277 /* Build configuration list for PBXNativeTarget "DownloadProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14EBDE41F4EA1320098C277 /* Debug */,
+				F14EBDE51F4EA1320098C277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14EBDA81F4EA1310098C277 /* Project object */;
+}
